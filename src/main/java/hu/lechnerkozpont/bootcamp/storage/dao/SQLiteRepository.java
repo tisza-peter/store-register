@@ -7,7 +7,6 @@ import java.sql.*;
 public class SQLiteRepository implements StoreItemRepository {
 
 	Connection conn;
-	private ConstsAndTools cat = new ConstsAndTools();
 	private String SQL_TABLE = "product";
 	private String KEY_NAME = "name";
 	private String KEY_QUANTITY = "quantity";

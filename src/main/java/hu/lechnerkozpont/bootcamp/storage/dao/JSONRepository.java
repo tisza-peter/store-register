@@ -11,7 +11,6 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 public class JSONRepository implements StoreItemRepository {
-    private ConstsAndTools cat = new ConstsAndTools();
     private String JSON_FILE_PATH = ".\\test.json";
     private String PARENT_JSON_ITEM_KEY = "products";
     private String KEY_NAME = "name";
